@@ -4,4 +4,31 @@
   <artifactId>testeweb</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>DesafioWebAutomacao</name>
+  
+  <dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>4.3.1</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>4.7.1</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+
+	</dependencies>
 </project>
